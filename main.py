@@ -6,7 +6,7 @@ perfumes = [
     {"name": "Lavender Bliss", "description": "A calming lavender scent.", "price": "$25", "image": "images/Lavender.jpeg", "gender": "women", "category": "new"},
     {"name": "Citrus Burst", "description": "A refreshing citrus fragrance.", "price": "$30", "image": "images/lemon.jpg", "gender": "unisex", "category": "best"},
     {"name": "Rose Garden", "description": "A romantic rose aroma.", "price": "$28", "image": "images/Rose.jpg", "gender": "women", "category": "new"},
-    {"name": "Ocean Breeze", "description": "A cool, marine-inspired scent.", "price": "$35", "image": "/images/Ocean.jpg", "gender": "men", "category": "best"}
+    {"name": "Ocean Breeze", "description": "A cool, marine-inspired scent.", "price": "$35", "image": "images/Ocean.jpg", "gender": "men", "category": "best"}
 ]
 
 @app.route('/')

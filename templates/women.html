@@ -1,10 +1,13 @@
 {% extends 'base.html' %}
+
+{% block title %} Women's Fragrances {% endblock %}
+
 {% block content %}
     <main>
         <section class="product-list container">
             <h2>Perfumes for Her</h2>
             <div class="products">
-                {% for perfume in women_perfumes %}
+                {% for perfume in perfumes %}
                     <div class="product-item">
                         <a href="#">
                             <img src="{{ url_for('static', filename=perfume.image) }}" alt="{{ perfume.name }} image">
