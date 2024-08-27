@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} Perfume Haven {% endblock %} | E-Store</title> 
+    <title>{% block title %}{% endblock %} | Perfume Haven</title> 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +19,9 @@
                     <li><a href="{{ url_for('best_sellers') }}">Best Sellers</a></li>
                     <li><a href="{{ url_for('men') }}">Men</a></li>
                     <li><a href="{{ url_for('women') }}">Women</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('add_perfume') }}">Add Perfume (Admin)</a></li> 
                 </ul>
             </div>
         </nav>
